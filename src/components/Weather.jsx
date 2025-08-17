@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import './Weather.css';
 
-import UpComingWeather from './UpComingWeather'; // Ensure the path to this component is correct
+import UpComingWeather from './UpComingWeather'; 
 
 import search_icon from '../assets/search.png';
 import logo_icon from '../assets/sun.png';
@@ -56,7 +56,7 @@ const Weather = () => {
   };
 
   useEffect(() => {
-    search('London'); // Fetch weather data for the default city on load
+    search('London'); 
   }, []);
 
   return (
