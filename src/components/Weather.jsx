@@ -63,7 +63,7 @@ const Weather = () => {
     <>
       <div className="headerSection">
         <img src={logo_icon} alt="logo" />
-        <h1>DailyForecast</h1>
+        <h1>Weather Forecast</h1>
         <div className="search">
           <input
             type="text"
